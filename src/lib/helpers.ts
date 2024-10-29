@@ -18,7 +18,7 @@ export function formatTimeForItaly(date: Date): string {
     hour: "numeric",
     minute: "2-digit",
     second: "2-digit",
-    hour12: false, // This will format the time in 12-hour format with AM/PM
+    hour12: true, // This will format the time in 12-hour format with AM/PM
     timeZone: "America/Los_Angeles",
   };
 
