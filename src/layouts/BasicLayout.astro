@@ -32,7 +32,6 @@ const schema =
           "https://www.linkedin.com/in/gianmarco-cavallo",
           "https://github.com/Ladvace",
         ],
-        image: "https://gianmarco.xyz/og-image.png",
         jobTitle: "Freelance Frontend Developer",
         worksFor: {
           "@type": "Organization",
@@ -95,10 +94,6 @@ const schema =
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url.origin} />
-    <meta
-      property="og:image"
-      content={image || "https://gianmarco.xyz/og-image.png"}
-    />
     <!-- Basic Twitter Card tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
